@@ -83,3 +83,6 @@ Our classes are as follows:
 - LandingPage (Sign-up page with option to continue without signing up)
 - My_Reviews (List of users current reviews as well as user control buttons)
 - Sign_Up_Page (Sign up page)
+- DepartmentalReviews (Reviews for different departments)
+- RateMyPritchMap (map for finding pritchard with directions)
+- StreetView (google streetview of pritchard)
