@@ -51,9 +51,9 @@ For my individual project I thought back to the core concept of why we made Rate
  
 - Pritchard Location and Directions using the Google Maps API
 
-  As a Residence Advisor I noticed that Pritchard is mainly frequented by first year students. I also noticed that first year students are not aware on how to navigate campus and therefore need assistance. Therefore using the Google Maps API and the Android Maps Library, I am able to create a feature that pinpoints the exact location of Pritchard on a map. Clicking the point allows the user to use Google Maps to find directions to Pritchard given their current location. This feature not only allows for a visual representation of where Pritchard is on campus, it also allows users audible and visible directions to Pritchard. This can be useful if the user is visually impaired or would rather put their phone away on their walk.
+  As a Residence Advisor I noticed that Pritchard is mainly frequented by first year students. I also noticed that first year students are not aware on how to navigate campus and therefore need assistance. Therefore using the Google Maps API and the Android Maps Library, I am able to create a feature that pinpoints the exact location of Pritchard on a map. Clicking the point allows the user to use Google Maps to find directions to Pritchard given their current location. This feature not only allows for a visual representation of where Pritchard is on campus, it also allows users audible and visible directions to Pritchard. This can be useful if the user is visually impaired or would rather put their phone away on their walk. Using the Android Maps library I also Street View button that gives a street view representation of the location.
   
-  Sample outputs for the Google Maps API and Google Street View features - 
+  Sample outputs for the Google Maps API and Google Street View features (Google Street View has not been updated since 2012 however, this feature will work once Google updates their Street View)  - 
 
 ## Class Organization
 Our classes are organized by each unique page our users will encounter throughout their use of our app. 
