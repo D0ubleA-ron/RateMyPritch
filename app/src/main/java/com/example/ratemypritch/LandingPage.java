@@ -28,11 +28,12 @@ public class LandingPage extends AppCompatActivity {
         loglog = (Button) findViewById(R.id.button6);
         signUp = (Button) findViewById(R.id.button7);
         signUpLater = (Button) findViewById(R.id.button8);
+
         DB = new DB_Helper(this);
         EditText username = (EditText) findViewById(R.id.email);
         EditText password = (EditText) findViewById(R.id.pass);
 
-
+        Intent gomap = new Intent(this,RateMyPritchMap.class);
         Intent intentGoMain = new Intent(this, MainView.class);
         loglog.setOnClickListener(new View.OnClickListener() {
             Boolean loggedin = false;
@@ -65,8 +66,6 @@ public class LandingPage extends AppCompatActivity {
                 startActivity(intentSignUp);
             }
         });
-
-
 
         Intent intentUnsigned = new Intent(this, MainView.class);
         signUpLater.setOnClickListener(new View.OnClickListener() {
