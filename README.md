@@ -44,11 +44,13 @@ In this verison of our project, we worked through the database systems for the l
 For my individual project I thought back to the core concept of why we made RateMyPritch, to serve the average student/user of our UBCO community. Therefore my goal was to add features that provided a service that would help the user. Using APIs I have decided to add the following features 
 
 - Weather Conditions Display using the OpenWeatherMap API
+  
   When I lived in first year residences the first thing I would do in the morning was go to Pritchard for breakfast. However, I often times did not know what they were serving nor the appropiate clothes to wear for the weather outside. Therefore, using the OpenWeatherAPI I was able to implement a feature that would tell the user the weather condition type (snowy, rainy, etc.) along with the temperature. I used JSON libraries and Android Volleys to make a request using the API key to return a JSON Array which I can then take JSON Objects from and translate to the appropiate data type to be displayed.
   
   Sample outputs for the OpenWeatherMap API - 
  
 - Pritchard Location and Directions using the Google Maps API
+
   As a Residence Advisor I noticed that Pritchard is mainly frequented by first year students. I also noticed that first year students are not aware on how to navigate campus and therefore need assistance. Therefore using the Google Maps API and the Android Maps Library, I am able to create a feature that pinpoints the exact location of Pritchard on a map. Clicking the point allows the user to use Google Maps to find directions to Pritchard given their current location. This feature not only allows for a visual representation of where Pritchard is on campus, it also allows users audible and visible directions to Pritchard. This can be useful if the user is visually impaired or would rather put their phone away on their walk.
   
   Sample outputs for the Google Maps API and Google Street View features - 
