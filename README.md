@@ -46,15 +46,31 @@ For my individual project I thought back to the core concept of why we made Rate
 - Weather Conditions Display using the OpenWeatherMap API
   
   When I lived in first year residences the first thing I would do in the morning was go to Pritchard for breakfast. However, I often times did not know what they were serving nor the appropiate clothes to wear for the weather outside. Therefore, using the OpenWeatherAPI I was able to implement a feature that would tell the user the weather condition type (snowy, rainy, etc.) along with the temperature. I used JSON libraries and Android Volleys to make a request using the API key to return a JSON Array which I can then take JSON Objects from and translate to the appropiate data type to be displayed.
-  
+
+
   Sample outputs for the OpenWeatherMap API - 
- 
+  
+  <img src = "https://user-images.githubusercontent.com/77289762/205416529-2906deb0-cc4e-4b17-8be6-e0a3208a066a.png" width = "170" />
+
 - Pritchard Location and Directions using the Google Maps API
 
   As a Residence Advisor I noticed that Pritchard is mainly frequented by first year students. I also noticed that first year students are not aware on how to navigate campus and therefore need assistance. Therefore using the Google Maps API and the Android Maps Library, I am able to create a feature that pinpoints the exact location of Pritchard on a map. Clicking the point allows the user to use Google Maps to find directions to Pritchard given their current location. This feature not only allows for a visual representation of where Pritchard is on campus, it also allows users audible and visible directions to Pritchard. This can be useful if the user is visually impaired or would rather put their phone away on their walk. Using the Android Maps library I also Street View button that gives a street view representation of the location.
   
   Sample outputs for the Google Maps API and Google Street View features (Google Street View has not been updated since 2012 however, this feature will work once Google updates their Street View)  - 
+  
+   <img src = "https://user-images.githubusercontent.com/77289762/205416176-df783c08-e84e-4e70-808b-22096d168d8b.png" width = "170" />
+  
+   Clicking the StreetViewButton - 
+  
+   <img src = "https://user-images.githubusercontent.com/77289762/205416260-e33a1f0f-34c6-47aa-9f3b-889c49d4ca02.png" width = "170" />
 
+   Clicking the Take me to Pritchard Button - 
+   
+   <img src = "https://user-images.githubusercontent.com/77289762/205416367-b5dba8b1-c581-4f2e-b839-27fa9203412a.png" width = "170" />
+   <img src = "https://user-images.githubusercontent.com/77289762/205416375-7dba74e1-3902-4e7f-8d3b-66cbb1e65c79.png" width = "170" />
+   <img src = "https://user-images.githubusercontent.com/77289762/205416383-946fbf70-bc5e-4a96-b900-2fa414d55cd0.png" width = "170" />
+
+  
 ## Class Organization
 Our classes are organized by each unique page our users will encounter throughout their use of our app. 
 Our classes are as follows:
